@@ -1,0 +1,107 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primer pagina web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <h1 id="Inicio">Leandro Fernandez</h1>
+       <p>Desarrollador Web</p>
+    </header>
+    <section class="nav">
+        <nav>
+            <a href="#Inicio">Inicio</a>
+            <a href="#Sobre Mi">Sobre Mi</a>
+            <a href="#Mis Servicios">Mis Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>  
+    </section>
+    <div class="contenedor1">
+        <div class="fondo-frase">
+    <section class="frase1">
+        <h2>Diseño y desarrollo Web</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, 
+            consequuntur debitis. Officia odit, atque voluptatum nesciunt eius, 
+            culpa perspiciatis quod incidunt possimus animi illo laborum blanditiis ipsam. 
+            Est, exercitationem id?</p>
+    </section>
+    </div>
+    </div>
+    <section class="sobre-mi" id="Sobre Mi">
+        <h2>Sobre Mi</h2>
+        <div class="texto-sobre-mi">
+        <div>
+           <p class="texto-sobre-mi_encabezado">Acerca de mi</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ut aspernatur magni recusandae, a id illo eum, maxime commodi similique adipisci, 
+            facilis incidunt officiis beatae impedit eos voluptatum nulla? Pariatur, rem?
+           </p>
+        </div>
+        <div>
+           <p class="texto-sobre-mi_encabezado">Experiencia profesional</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quas maxime pariatur officia voluptas distinctio consequatur sunt rem. 
+            Repellat provident exercitationem esse, incidunt quo sit saepe sed atque magnam magni nostrum.
+        </p>
+        </div>
+        <div>
+           <p class="texto-sobre-mi_encabezado">Educación personal</p>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Necessitatibus, nemo neque. Omnis modi voluptatibus repudiandae sunt fuga odio enim. 
+            Expedita doloribus nostrum recusandae eligendi natus laudantium. Natus ipsam libero 
+            suscipit.</p>
+        </div>
+        </div>
+    </section>
+    <section class="mis-servicios" id="Mis Servicios">
+        <h2 class="mis-servicios_titulo">Mis Servicios</h2>
+        <div class="mis-servicios_cont">
+            <div class="MS1">
+           <p class="mis-servicios_encabezado">Desarrollo web <img src="fotos/desarrollo-web.png" alt="desarrollo-web" class="mis-servicios_foto"></p>
+           <p class="mis-servicios_texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Reprehenderit at nisi culpa totam quidem placeat distinctio sapiente sed id dolore 
+            nostrum vero blanditiis excepturi fuga, non amet cumque ratione! Labore?</p> 
+            </div>  
+            <div class="MS2">
+            <p class="mis-servicios_encabezado">Diseño web  <img src="fotos/diseno-grafico.png" alt="diseño-web" class="mis-servicios_foto"></p>
+            <p class="mis-servicios_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Hic eligendi temporibus totam et ad. Ab mollitia nisi optio obcaecati quae, 
+            cum nemo doloremque. Tempore, cum? Reiciendis libero incidunt assumenda sunt.</p>
+            </div>
+        </div>
+    </section>
+    <section class="foot" id="contacto">
+        <div class="foot-cont">
+        <form method="get" class="formulario">
+            <legend class="legend">Formulario de Contacto</legend>
+            <div class="contenido-formulario">    
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Nombre" name="nombre" class="formulario_campos">
+                <label for="telefono">Telefono</label>
+                <input type="number" placeholder="telefono" name="telefono" class="formulario_campos">
+                <label for="e-mail">e-mail</label>
+                <input type="e-mail" name="e-mail" placeholder="e-mail" class="formulario_campos">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" cols="30" rows="2" class="formulario_campos"></textarea>
+                <input type="submit" value="Enviar" class="boton">
+            </div>   
+        </form>
+        <div class="pie1">
+            <h3>Redes Sociales</h3>
+                <a href="#" target="_blank"><img class="foto-redsocial" src="fotos/facebook.png" alt="facebook"></a>
+                <a href="#" target="_blank"><img class="foto-redsocial" src="fotos/instagram.png" alt="instangram"></a>
+                <a href="#" target="_blank"><img class="foto-redsocial" src="fotos/gorjeo.png" alt="twitter"></a>
+                <a href="#" target="_blank"><img class="foto-redsocial" src="fotos/linkedin.png" alt="linkedin"></a>
+                <div class="mapa">
+                    <a href="#" target="_blank" class="link-ubi"><p>Montevideo, Uruguay-<img src="fotos/mapa.png" alt="mapita" id="foto-mapa"></p></a>
+                </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
